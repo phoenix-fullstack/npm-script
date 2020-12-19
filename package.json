@@ -1,0 +1,15 @@
+{
+  "name": "npm-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint *.js",
+    "lint:js:fix": "npm run lint:js -- --fix"
+  },
+  "repository": "git@github.com:phoenix-fullstack/npm-script.git",
+  "author": "zhaobaojue <zhaobaojue@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.16.0"
+  }
+}
